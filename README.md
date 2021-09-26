@@ -1,6 +1,5 @@
 # Create custom lineage in Azure Purview
 
-Data Catalog lineage user guide (preview) - Azure Purview | Microsoft Docs
 
 As I am writing this small blog, [Azure Purview supports few data processing systems](https://docs.microsoft.com/en-us/azure/purview/catalog-lineage-user-guide); however, in reality, data engineers might be using third-party tools or custom scripts for data processing. Azure Purview provides a way to include such missing lineage information. 
 
