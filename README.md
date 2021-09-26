@@ -2,7 +2,7 @@
 
 Data Catalog lineage user guide (preview) - Azure Purview | Microsoft Docs
 
-As I am writing this small blog, [Azure Purview supports few data processing systems](https://docs.microsoft.com/en-us/azure/purview/catalog-lineage-user-guide); however, in reality, data engineers might be using third-party tools or custom scripts for data processing. 
+As I am writing this small blog, [Azure Purview supports few data processing systems](https://docs.microsoft.com/en-us/azure/purview/catalog-lineage-user-guide); however, in reality, data engineers might be using third-party tools or custom scripts for data processing. Azure Purview provides a way to include such missing lineage information. 
 
 This section will walk through setting up custom lineage between two Azure Data Lake Gen 2 storage in Azure purview.
 
@@ -19,7 +19,7 @@ The next step is to assign a role to application identity in Azure Purview. Azur
 
 ## Steps
 
-Copy file "Azure Purview API Request.postman_collection.json" from ![API_requests](/API_requests/) and import it in Postman
+Copy file "Azure Purview API Request.postman_collection.json" from [API_requests](/API_requests/) and import it in Postman
 
 1) Open "01 Get Token", set Tenant_ID, Client_Id, Client_secret, click Send
 
