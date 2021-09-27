@@ -9,7 +9,7 @@ This section will walk through setting up custom lineage between two Azure Data 
 
 1. [Azure Purview Quickstart](https://docs.microsoft.com/en-us/azure/purview/create-catalog-portal)
 2. [Azure AD application Quickstart](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app) 
-3. [Postman] (https://www.postman.com/)  
+3. [Postman](https://www.postman.com/)  
 
 
 The next step is to assign a role to application identity in Azure Purview. Azure purview doesn't allow direct access to the service. Therefore, every API request should have an authorization token.  
